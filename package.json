@@ -1,0 +1,21 @@
+{
+  "name": "pw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antniko/https---github.com-antniko-pw.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antniko/https---github.com-antniko-pw/issues"
+  },
+  "homepage": "https://github.com/antniko/https---github.com-antniko-pw#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.27.1"
+  }
+}
