@@ -13,11 +13,6 @@ pipeline {
         '''
       }
     }
-    stage('help') {
-      steps {
-        bat 'npx playwright test --help'
-      }
-    }
     stage('tests for BABEC') {
       steps {
         bat '''
