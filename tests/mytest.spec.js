@@ -10,5 +10,5 @@ const {hello, helloworld} = require('./demo/hello')
 
 test('My test', async ({page}) => {
   await page.goto('https://google.com');
-  await expect(page).toHaveTitle('Google11111')
+  await expect(page).toHaveTitle('Google')
 })
