@@ -4,7 +4,7 @@ pipeline {
       image 'mcr.microsoft.com/playwright:v1.27.1-focal'
     }
   }
-  stages {
+  /*stages {
     stage('install playwright') {
       steps {
         sh '''
@@ -17,7 +17,7 @@ pipeline {
       steps {
         sh 'npx playwright test --help'
       }
-    }
+    }*/
     stage('test') {
       steps {
         sh '''
