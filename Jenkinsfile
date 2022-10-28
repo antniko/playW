@@ -20,7 +20,7 @@ pipeline {
     }*/
     stage('test') {
       steps {
-        sh '''
+        bat '''
           npx playwright test --list
           npx playwright test
         '''
