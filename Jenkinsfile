@@ -5,14 +5,14 @@ pipeline {
     }
   }
   stages {
-    stage('install playwright') {
+    /*stage('install playwright') {
       steps {
         bat '''
           npm i -D @playwright/test
           npx playwright install
         '''
       }
-    }
+    }*/
     stage('tests for BABEC') {
       steps {
         bat '''
