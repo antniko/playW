@@ -14,7 +14,7 @@ pipeline {
       }
     }/*/
     stage('tests for BABEC') {
-      steps {
+      steps { 
         bat '''
           npx playwright test --list
           npx playwright test
