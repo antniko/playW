@@ -1,5 +1,5 @@
 pipeline {
-  agent {
+  /*agent {
     any {
       image 'mcr.microsoft.com/playwright:v1.27.1-focal'
     }
