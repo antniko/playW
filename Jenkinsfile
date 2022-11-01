@@ -12,7 +12,7 @@ pipeline {
           npx playwright install
         '''
       }
-    }*/
+    }/*/
     stage('tests for BABEC') {
       steps {
         bat '''
