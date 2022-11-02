@@ -1,6 +1,6 @@
 // example.spec.js
 const { test, expect } = require('@playwright/test');
-const { DevPage } = require('./POM/models/dev-page');
+const { DevPage } = require('..dev-page');
 
 test('getting started should contain table of contents', async ({ page }) => {
   const playwrightDev = new DevPage(page);
