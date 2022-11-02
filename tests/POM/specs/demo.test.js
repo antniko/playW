@@ -1,7 +1,7 @@
-/*
+
 const { expect } = require('@playwright/test');
-const HomePage = require('../models/home.page');
-const LoginPage = require('../models/login.page');
+const HomePage = require('../models/Home.page');
+const LoginPage = require('../models/Login.page');
 
 describe ('Applitools demo page', () => {
   //jest.setTimeout(30000);
@@ -46,4 +46,3 @@ describe ('Applitools demo page', () => {
     expect(await homePage.getBalance('due')).toBe('$180');
   })
 })
-*/

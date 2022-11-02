@@ -1,6 +1,6 @@
 const { test } = require('@playwright/test');
 
-test('Login test 1', async({ page }) => {
+test('Login test with LOcators', async({ page }) => {
 
   await page.goto('https://demo.applitools.com/')
   //await page.pause()
