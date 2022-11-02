@@ -1,3 +1,4 @@
+/*
 const { expect } = require('@playwright/test');
 const HomePage = require('../models/home.page');
 const LoginPage = require('../models/login.page');
@@ -45,3 +46,4 @@ describe ('Applitools demo page', () => {
     expect(await homePage.getBalance('due')).toBe('$180');
   })
 })
+*/
